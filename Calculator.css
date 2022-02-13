@@ -1,0 +1,52 @@
+body {
+    background-image: url("../IMAGES/mountain2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    opacity:0.5;
+}
+
+.box {
+ display:flex;
+ justify-content: center;   
+ align-items: center;
+ min-height: 90vh;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+   }
+
+   .button {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #aca3b3;
+    color: white;
+    border: solid black 0.5px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 50px;
+    align-content: center;
+   }
+
+   .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+   .display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+    border: solid black 0.5px;
+    border-radius: 5px;
+    width: 300px;
+    height: 80px;
+   }
+
+  
